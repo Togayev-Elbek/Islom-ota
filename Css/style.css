@@ -1,0 +1,479 @@
+/* Fonts titleL: "Montserrat" "Playfair+Display"*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+}
+
+.container {
+    width: 1282px;
+    margin: 0 auto;
+}
+
+
+/* Header top section */
+
+
+.header-top {
+    border-bottom: 1px solid #DADADA;
+}
+
+.header-top .header-top__content {
+    display: flex;
+    justify-content: space-between;
+    color: #666;
+    font-family: 'Montserrat';
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.header-top .header-top__content-1 {
+    display: flex;
+    padding: 18px 8px 18px 0;
+}
+
+.header-top .header-top__content-1 .one {
+    margin-top: 10px;
+}
+
+.header-top .header-top__content-1 img {
+    margin: -1px 8px 16px 0;
+}
+
+.header-top .header-top__content-2 {
+    display: flex;
+    padding: 18px 0;
+}
+
+.header-top .header-top__content-2 select {
+    margin: 0 24px 0 8px;
+    color: #666;
+    border: none;
+}
+
+.header-top .header-top__content-2 .two {
+    border-left: 1px solid #666;
+    padding: 20px 12px 0 24px;
+}
+
+.header-top .header-top__content-2 .img {
+    margin: 0;
+}
+
+.header-top .header-top__content-2 .top-img {
+    margin: 16px 0;
+}
+
+.header-top .header-top__content-2 .top-img a {
+    text-decoration: none;
+}
+
+.header-top .header-top__content-2 .top-img .img {
+    margin: 0 16px;
+}
+
+.header-top .header-top__content-2 .top-img .img-1 {
+    margin-left: 16px;
+}
+
+/* header main section */
+
+
+
+.header-main .header-main__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-main .header-main__content h2 {
+    color: #1E1E1E;
+    font-family: 'Playfair Display';
+    font-size: 20px;
+    font-weight: 400;
+    margin: 31px 0;
+}
+
+
+.header-main .header-main__content .header-main__content-2 {
+    margin: 37px 0;
+}
+
+.header-main .header-main__content .header-main__content-2 ul {
+    display: flex;
+}
+
+.header-main .header-main__content .header-main__content-2 li {
+    list-style: none;
+}
+
+.header-main .header-main__content .header-main__content-2 a {
+    color: #666;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    margin: 0 16px;
+}
+
+.header-main .header-main__content .header-main__content-2 select {
+    border: none;
+    color: #666;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* header-bottom__section */
+
+.header-bottom {
+    text-align: center;
+    width: 1440px;
+    height: 650px;
+    background-repeat: no-repeat;
+    background-image: url(../images/header-bottom__bg-img.png)
+}
+
+.header-bottom .header-bottom__content img {
+    margin: 120px 0 56px 0;
+}
+
+.header-bottom .header-bottom__content h2 {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Playfair Display';
+    font-size: 52px;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.header-bottom .header-bottom__content button {
+    color: #FFF;
+    margin: 72px auto 136px 0;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 400;
+    padding: 16px 32px;
+    background: none;
+    border: 2px solid #FFF;
+    border-radius: 5px;
+}
+
+.header-bottom .header-bottom__content button:hover {
+    color: #1E1E1E;
+    background: red;
+    box-shadow: 0 0 20px green;
+    cursor: grab;
+}
+
+/* Maqollalar section */
+
+
+.Maqolalar h4 {
+    color: #666;
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.Maqolalar h2 {
+    color: #1E1E1E;
+    font-family: 'Playfair Display';
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 36px;
+}
+
+
+.Maqolalar .maqolalar-content {
+    display: flex;
+    align-items: center;
+}
+
+.Maqolalar .maqola-boxs {
+    border-radius: 4px;
+    border: 1px solid rgba(102, 102, 102, 0.10);
+    display: flex;
+    align-items: center;
+    width: 847px;
+    padding: 32px 21px 32px 32px;
+}
+
+.Maqolalar .maqolalar-content .maqola-box__content {
+    margin-left: 32px;
+}
+
+.Maqolalar .maqolalar-content .maqola-box__content h3 {
+    color: #1E1E1E;
+    font-family: 'Playfair Display';
+    font-size: 24px;
+    font-weight: 500;
+    padding: 12px 0;
+}
+
+.Maqolalar .maqolalar-content .maqola-box__content p {
+    color: #1E1E1E;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 161%;
+}
+
+.Maqolalar .box-one .btn button {
+    color: #1E1E1E;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 4px;
+    border: 1px solid rgba(102, 102, 102, 0.10);
+    background: #FFF;
+    padding: 16px 33px;
+}
+
+.Maqolalar .box-one .btn :hover {
+    color: red;
+    background: yellow;
+    cursor: pointer;
+    box-shadow: 0 0 0 10px #1E1E1E;
+}
+
+
+
+
+.Maqolalar .box-two {
+    margin-left: 24px;
+}
+
+.Maqolalar .box-two .maqola-box {
+    width: 354px;
+    height: 142px;
+    border-radius: 4px;
+    border: 1px solid rgba(102, 102, 102, 0.10);
+    display: flex;
+    padding: 32px 26px 32px 32px;
+}
+
+.Maqolalar .box-two .maqola-box .maqola-img {
+    margin-right: 24px;
+}
+
+.Maqolalar .box-two .maqola-box .maqola-content img {
+    margin-bottom: 12px;
+}
+
+.Maqolalar .box-two .maqola-box .maqola-content p {
+    color: #1E1E1E;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 161%;
+}
+
+.Maqolalar .box-two .btn button {
+    color: #1E1E1E;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 4px;
+    border: 1px solid rgba(102, 102, 102, 0.10);
+    background: #FFF;
+    padding: 16px 33px;
+}
+
+.Maqolalar .box-two .btn :hover {
+    color: red;
+    background: yellow;
+    cursor: pointer;
+    box-shadow: 0 0 0 10px #1E1E1E;
+}
+
+
+
+/* Dunyo yangiliklari */
+
+
+.dunyo-yangilik {
+    background: rgba(213, 230, 240, 0.20);
+    margin: 56px 0;
+}
+
+.dunyo-yangilik h2 {
+    color: #1E1E1E;
+    font-family: 'Playfair Display';
+    font-size: 36px;
+    font-weight: 500;
+    padding: 56px 0 36px 0;
+}
+
+.dunyo-yangilik .img {
+    margin: 56px 600px;
+    text-align: center;
+}
+
+.dunyo-yangilik .dunyo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dunyo-yangilik .dunyo-box {
+    width: 629px;
+    border: 1px solid #D8DBDC;
+    border-radius: 10px;
+    padding: 32px 0 32px 32px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 24px;
+}
+
+.dunyo-yangilik .dunyo .dunyo-img img {
+    width: 270px;
+    height: 324px;
+}
+
+.dunyo-yangilik .dunyo .dunyo-content {
+    margin-left: 32px;
+}
+
+.dunyo-yangilik .dunyo .dunyo-content h3 {
+    color: #1E1E1E;
+    font-family: 'Playfair Display';
+    font-size: 20px;
+    font-weight: 500;
+    margin: 12px 0;
+}
+
+.dunyo-yangilik .dunyo .dunyo-content p {
+    color: #1E1E1E;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 161%;
+}
+
+.dunyo-yangilik .dunyo .dunyo-content button {
+    color: #1E1E1E;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 161%;
+    padding: 16px 39px;
+    margin-top: 15px;
+    border: 2px solid #D8DBDC;
+    border-radius: 5px;
+    background: none;
+}
+
+/* Videolavhalar */
+
+.Videolavhalar {
+    background: rgba(213, 230, 240, 0.20);
+}
+
+.Videolavhalar .h2 {
+    padding: 56px 0 36px 0;
+    color: #1E1E1E;
+    font-family: 'Playfair Display';
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.Videolavhalar .video-boxs {
+    display: flex;
+}
+
+.Videolavhalar .video-box {
+    width: 630px;
+    margin-right: 24px;
+}
+
+.Videolavhalar .video-content img {
+    margin: 24px 0 13px 0;
+}
+
+.Videolavhalar .video-content h3 {
+    color: #1E1E1E;
+    font-family: 'Playfair Display';
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.Videolavhalar .video-content p {
+    color: #1E1E1E;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 161%;
+    margin: 12px 0 32px;
+}
+
+.Videolavhalar .vedio {
+    display: flex;
+}
+
+.Videolavhalar .vedio .vedio-quti img {
+    width: 303px;
+    margin-right: 24px;
+}
+
+
+
+.photo h2 {
+    color: #1E1E1E;
+    font-family: ' Playfair Display';
+    font-size: 36px;
+    font-weight: 500;
+    margin: 56px 0 36px 0;
+}
+
+.photo .photo-boxs {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.photo .photo-boxs .box {
+    margin: 17px 17px 0 0;
+    width: 303px;
+}
+
+
+
+.footerr .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footerr .footerr-section {
+    display: flex;
+    padding: 58px 0 71px 0;
+}
+
+.footerr .footerr-section .footerr-contentt p {
+    width: 545px;
+    color: #666;
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 161%;
+    margin-left: 16px;
+}
+
+.footerr .footerr-content__1 p {
+    color: #666;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 161%;
+}
+
+.footerr .footerr-content__1 .footerr-img{
+    position: relative;
+    right: -300px;
+}
+.footerr .footerr-content__1 .footerr-img a {
+    text-decoration: none;
+    position: relative;
+    right: -20;
+}
